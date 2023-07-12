@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_HTML_CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <form action="/HTML/ej04/index.html" method="post" enctype="multipart/form-data">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required><br>
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"><br>
+            <br><br>
+            Dirección: <br><br>
+            <label for="tipoVia">Tipo de vía:</label>
+            <input type="text" name="tipoVia" id="tipoVia" placeholder="Escribe el tipo de vía"><br>
+            <br>
+            <label for="nameVia">Nombre de la vía:</label>
+            <input type="text" name="nameVia" id="nameVia" placeholder="Escribe el nombre de la vía" required><br>
+            <br>
+            <label for="codigoPostal">Código postal: </label>
+            <input type="number" name="codigoPostal" id="codigoPostal" placeholder="Escribe el código postal" required><br>
+            <br>
+            <label for="ciudad">Ciudad: </label>
+            <input type="text" name="ciudad" id="ciudad" placeholder="Escribe la ciudad" required><br>
+            <br>
+            <label for="provincia">Provincia:</label>
+            <input type="text" name="provincia" id="provincia" placeholder="Escribe la provincia" required><br>
+            <br>
+            <label for="pais">País: </label>
+            <input type="text" name="pais" id="pais" placeholder="Escribe el país" required> <br>
+            <br><br>
+            <label for="fechaNacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento" required><br>
+            <br>
+            <label for="nota">Nota media en la universidad: </label>
+            <input type="number" placeholder="Nota" name="nota" id="nota" min="0" max="10" step="0.1"><br>
+            <br>
+            <label for="phone">Número de telefono: </label>
+            <input type="tel" placeholder="Teléfono" name="phone" id="phone" required><br>
+            <br>
+            <label for="email">Correo electrónico: </label>
+            <input type="email" placeholder="email" name="email" id="email" required><br>
+            <br>
+            <label for="password0">Contraseña: </label>
+            <input type="password" placeholder="Escribe tu contraseña" name="password0" id="password0" required><br>
+            <br>
+            <label for="password1">Repetir contraseña: </label>
+            <input type="password" placeholder="Repite la contraseña" name="password1" id="password1" required><br>
+            <br>
+            Selecciona un país: <br>
+            <label for="españaCheckbox">España </label>
+            <input type="checkbox" name="paisCheckbox" id="españaCheckbox">
+            <br>
+            <label for="franciaCheckbox">Francia</label>
+            <input type="checkbox" name="paisCheckbox" id="franciaCheckbox">
+            <br>
+            <label for="portugalCheckbox">Portugal</label>
+            <input type="checkbox" name="paisCheckbox" id="portugalCheckbox">
+            <br>
+            <label for="andorraCheckbox">Andorra</label>
+            <input type="checkbox" name="paisCheckbox" id="andorraCheckbox">
+            <br>
+            <br>Tipo de cuenta:
+            <br>
+            <abbr title="Cuenta gratuita, con anuncios.">
+                <label for="gratuita">Gratuita</label>
+                <input type="radio" value="gratuita" checked name="cuentaRadio" id="gratuita">
+            </abbr>
+            <br>            
+            <br>
+            <abbr title="Cuenta básica con acceso a la mayoría del contenido, sin anuncios.">
+                <label for="basica">Básica</label>
+                <input type="radio" value="basica" name="cuentaRadio" id="basica"></abbr>            
+            <br>
+            <br>
+            <abbr title="Cuenta premium con acceso a  todo el contenido, sorteos y promociones, sin anuncios.">
+                <label for="premium">Premium</label>
+                <input type="radio" value="premium" name="cuentaRadio" id="premium"></abbr>
+            <br>            
+            <div class="descripcion" id="descripcionPremium"><dd> </dd></div>
+            <br>
+            <br>
+            <label for="aboutMe">Sobre mi: </label>
+            <br>
+            <textarea name="aboutMe" id="aboutMe" cols="30" rows="10" placeholder="Cuentanos algo sobre ti..."></textarea>
+            <br><br>
+            <br>
+            <label for="fotoPerfil">Foto de perfil</label>
+            <input type="file" accept="image/*" name="fotoPerfil" id="fotoPerfil">
+            <br><br>            
+            <label for="cv">CV </label>            
+            <input type="file" name="cv" id="cv">
+            <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
