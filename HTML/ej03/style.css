@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+
+#premium+label, #basica+label, #gratuita+label{
+    display:none;
+}
+
+#premium:checked+label, #basica:checked+label, #gratuita:checked+label{
+    display:contents;
+}

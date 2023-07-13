@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios_HTML_CSS</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicio_HTML_3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <form action="/HTML/ej04/index.html" method="post" enctype="multipart/form-data">
@@ -65,23 +65,20 @@
             <input type="checkbox" name="paisCheckbox" id="andorraCheckbox">
             <br>
             <br>Tipo de cuenta:
-            <br>
-            <abbr title="Cuenta gratuita, con anuncios.">
-                <label for="gratuita">Gratuita</label>
-                <input type="radio" value="gratuita" checked name="cuentaRadio" id="gratuita">
-            </abbr>
+            <br>       
+            Gratuita: <input type="radio" value="gratuita" checked name="cuentaRadio" id="gratuita">
+            <label id="descGratuita" for="gratuita">Cuenta gratuita, con anuncios.</label>
             <br>            
-            <br>
-            <abbr title="Cuenta básica con acceso a la mayoría del contenido, sin anuncios.">
-                <label for="basica">Básica</label>
-                <input type="radio" value="basica" name="cuentaRadio" id="basica"></abbr>            
-            <br>
-            <br>
-            <abbr title="Cuenta premium con acceso a  todo el contenido, sorteos y promociones, sin anuncios.">
-                <label for="premium">Premium</label>
-                <input type="radio" value="premium" name="cuentaRadio" id="premium"></abbr>
             <br>            
-            <div class="descripcion" id="descripcionPremium"><dd> </dd></div>
+            Básica: 
+            <input type="radio" value="basica" name="cuentaRadio" id="basica"></abbr>            
+            <label id="descBasica" for="basica">Cuenta básica con acceso a la mayoría del contenido, sin anuncios.</label>
+            <br>
+            <br>            
+            Premium:
+            <input type="radio" value="premium" name="cuentaRadio" id="premium"></abbr>
+            <label id="descPremium" for="premium">Cuenta premium con acceso a  todo el contenido, sorteos y promociones, sin anuncios.</label>
+            <br>            
             <br>
             <br>
             <label for="aboutMe">Sobre mi: </label>

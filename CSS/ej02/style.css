@@ -1,27 +1,6 @@
 body{
     margin: 0;
-    background-color: lightgray;
-}
-
-.cuadrados{
-    display: flex;
-    flex-direction:row;
-    background-color: yellowgreen;
-    width: 300px;
-}
-
-.redondeados{
-    display: flex;
-    flex-direction:row;
-    background-color: pink;
-    width: 300px;
-}
-
-.circulos{
-    display: flex;
-    flex-direction:row;
-    background-color: lightblue;
-    width: 300px;
+    background-color: lightgray;    
 }
 
 .cuadradoL{
@@ -63,4 +42,14 @@ body{
 
 #cuadradoL5, #cuadradoR5, #circulo5{
     background-color: rgb(0, 0, 255);
+}
+
+.row1{
+    background-color: yellowgreen;
+}
+.row2{
+    background-color: pink;
+}
+.row3{
+    background-color: lightblue;
 }
