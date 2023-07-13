@@ -24,7 +24,6 @@ section {
     height: 50px;
     width: 50px;
     margin: 5px;
-    background-color: brown;
 }
 
 .cuadradoR{
@@ -63,17 +62,23 @@ section {
 }
 
 .s1{
-    grid-column:1/4;
+    grid-column:1;
     grid-row: 2;
-    background-color: brown;
+    background-color: yellowgreen;
+    border-color: lightblue;
+    border-style: dashed;
 }
 .s2{
-    grid-column:2/4;
-    grid-row: 2;
-    background-color: lightblue;
-}
-.s3{
-    grid-column:3/4;
+    grid-column:2;
     grid-row: 2;
     background-color: pink;
+    border-color: yellowgreen;
+    border-style: dotted;
+}
+.s3{
+    grid-column:3;
+    grid-row: 2;
+    background-color: lightblue;
+    border-color: pink;
+    border-style:double;
 }
