@@ -28,47 +28,73 @@ section {
 
 .cuadradoR{
     height: 50px;
-    width: 50px;    
+    width: 50px;
+    margin: 5px; 
     border-radius: 15px;   
 
 }
 
 .circulo{
     height: 50px;
-    width: 50px;  
+    width: 50px;
+    margin: 5px;   
     border-radius: 50px;  
 }
 
 #cuadradoL1, #cuadradoR1, #circulo1{
-    background-color: rgb(255, 0, 0);    
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    transform: rotate(45deg);
+    cursor: default;
+    transition: transform 1s linear;
 }
 
 #cuadradoL2, #cuadradoR2, #circulo2{
     background-color: rgb(200, 0, 55);
+    position: relative;
+    transform: rotate(45deg);
+    cursor: default;
+    transition: transform 1s linear;
 }
 
 #cuadradoL3, #cuadradoR3, #circulo3{
     background-color: rgb(150, 0, 105);
+    position: relative;
+    transform: rotate(45deg);
+    cursor: default;
+    transition: transform 1s linear;
 }
 
 #cuadradoL4, #cuadradoR4, #circulo4{
     background-color: rgb(100, 0, 155);
+    position: relative;
+    transform: rotate(45deg);
+    cursor: default;
+    transition: transform 1s linear;
 }
 
 #cuadradoL5, #cuadradoR5, #circulo5{
     background-color: rgb(0, 0, 255);
+    position: relative;
+    transform: rotate(45deg);
+    cursor: default;
+    transition: transform 1s linear;
 }
-.s2 .fondo, .row2 .fondo{
-    width: 50px;
-    height: 50px;
-    background-color: lightblue;
-    margin: 5px;
+
+#cuadradoL1:hover, #cuadradoR1:hover, #circulo1:hover{
+    transform: rotate(0deg);
 }
-.s3 .fondo, .row3 .fondo{
-    width: 50px;
-    height: 50px;
-    background-color: yellowgreen;
-    margin: 5px;
+#cuadradoL2:hover, #cuadradoR2:hover, #circulo2:hover{
+    transform: rotate(0deg);
+}
+#cuadradoL3:hover, #cuadradoR3:hover, #circulo3:hover{
+    transform: rotate(0deg);
+}
+#cuadradoL4:hover, #cuadradoR4:hover, #circulo4:hover{
+    transform: rotate(0deg);
+}
+#cuadradoL5:hover, #cuadradoR5:hover, #circulo5:hover{
+    transform: rotate(0deg);
 }
 
 .s1{
@@ -91,14 +117,4 @@ section {
     background-color: lightblue;
     border-color: pink;
     border-style:double;
-}
-
-.row1{
-    background-color: yellowgreen;
-}
-.row2{
-    background-color: pink;
-}
-.row3{
-    background-color: lightblue;
 }

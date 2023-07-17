@@ -3,25 +3,16 @@ body{
     background-color: lightgray;
 }
 
-.cuadrados{
-    display: flex;
-    flex-direction:row;
+.cuadrados{     
     background-color: yellowgreen;
-    width: 300px;
 }
 
-.redondeados{
-    display: flex;
-    flex-direction:row;
+.redondeados{        
     background-color: pink;
-    width: 300px;
 }
 
-.circulos{
-    display: flex;
-    flex-direction:row;
+.circulos{        
     background-color: lightblue;
-    width: 300px;
 }
 
 .cuadradoL{
