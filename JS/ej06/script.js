@@ -1,6 +1,6 @@
 function addImg (){       
     if(count < 5){
-    const imgURL = "Xokas_zoom.png";
+    const imgURL = images[count];
     let newElement = document.createElement("img");
     newElement.classList.add("image");    
     newElement.src = imgURL;   
@@ -17,6 +17,13 @@ function deleteImg() {
 }
 
 let count = 0;
+images = [
+    "cat-gf13e637fd_1280.jpg",
+    "maine-coon-cat-gfb3dea431_1280.jpg",
+    "cat-gc955e05f4_1280.jpg",
+    "cat-ga820cd5a5_1280.jpg",
+    "cat-g173f725f8_1280.jpg"
+];
 window.onload = function() { 
     let position = document.querySelector("#position");
     position.setAttribute("max", count);
