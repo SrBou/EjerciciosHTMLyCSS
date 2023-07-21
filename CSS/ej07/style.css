@@ -7,8 +7,7 @@ body{
     display: grid;
 }
 
-section {
-    min-height: 50px;
+section {    
     border: 3px solid black;
 }
 
@@ -20,72 +19,25 @@ section {
     grid-column:1/4;
 }
 
-.cuadradoL{
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 1s linear;
-}
-
-.cuadradoR{
-    height: 50px;
-    width: 50px;
-    margin: 5px; 
-    border-radius: 15px;   
-    transform: rotate(45deg);
-    position: relative;
-    cursor: pointer;
-    transition: transform 1s linear;
-}
-
-.circulo{
-    height: 50px;
-    width: 50px;
-    margin: 5px;   
-    border-radius: 50px;  
-    transform: rotate(45deg);
-    position: relative;
-    cursor: pointer;
-    transition: transform 1s linear;
-}
-
 .input{
     display: none;
 }
 
 .input+label{
-
+     min-width: 50px;
+     min-height: 50px;
+     text-align: center;     
+     margin: 5px;     
+     border: 2px solid black;
+     cursor: pointer;
+     position: relative;   
+     background-color: red;
 }
 
-.input:checked+label>div{
+.input:checked+label{    
     transform: rotate(45deg);
+    transition: transform 1s linear;
 }
-
-#cuadradoL1, #cuadradoR1, #circulo1{
-    background-color: rgb(255, 0, 0);
-    
-}
-
-#cuadradoL2, #cuadradoR2, #circulo2{
-    background-color: rgb(200, 0, 55);
-}
-
-#cuadradoL3, #cuadradoR3, #circulo3{
-    background-color: rgb(150, 0, 105);
-}
-
-#cuadradoL4, #cuadradoR4, #circulo4{
-    background-color: rgb(100, 0, 155);
-}
-
-#cuadradoL5, #cuadradoR5, #circulo5{
-    background-color: rgb(0, 0, 255);
-}
-
-
-
 
 .s1{
     grid-column:1;
